@@ -12,4 +12,6 @@ std::map<BnetNodeID, int> CalculateSlack(const BnetNetwork *net);
 
 void KMostCriticalPaths(const BnetNetwork *net, int k = 10, bool show_slack = false);
 
+std::vector<BnetNodeID> MinCut(const BnetNetwork *net, std::map<BnetNodeID, double> error);
+
 #endif

@@ -1,6 +1,6 @@
 #include "sta.h"
 
-static const int INF = 100000;
+static const int INF = 1000000;
 
 struct T_Node {
     BnetNodeID name;
@@ -21,6 +21,104 @@ struct PartialPath {
         this->path = std::move(path);
         this->path.emplace_back(node);
         this->max_delay = max_delay;
+    }
+};
+
+struct Edge {
+    int u, v;
+    double cap, flow;
+
+    Edge() = default;
+
+    Edge(int u, int v, double cap) : u(u), v(v), cap(cap), flow(0) {}
+};
+
+struct Dinic {
+    int N;
+    std::vector<Edge> E;
+    std::vector<std::vector<int>> g;
+    std::vector<int> d, pt;
+    std::vector<bool> res_visited;
+
+    explicit Dinic(int N) : N(N), E(0), g(N), d(N), pt(N), res_visited(N, false) {}
+
+    void AddEdge(int u, int v, double cap) {
+        if (u != v) {
+            E.emplace_back(Edge(u, v, cap));
+            g[u].emplace_back(E.size() - 1);
+            E.emplace_back(Edge(v, u, 0));
+            g[v].emplace_back(E.size() - 1);
+        }
+    }
+
+    bool BFS(int S, int T) {
+        std::queue<int> q({S});
+        fill(d.begin(), d.end(), N + 1);
+        d[S] = 0;
+        while (!q.empty()) {
+            int u = q.front();
+            q.pop();
+            if (u == T) break;
+            for (int k: g[u]) {
+                Edge &e = E[k];
+                if (e.flow < e.cap && d[e.v] > d[e.u] + 1) {
+                    d[e.v] = d[e.u] + 1;
+                    q.emplace(e.v);
+                }
+            }
+        }
+        return d[T] != N + 1;
+    }
+
+    double DFS(int u, int T, double flow = -1) {
+        if (u == T || flow == 0) return flow;
+        for (int &i = pt[u]; i < g[u].size(); ++i) {
+            Edge &e = E[g[u][i]];
+            Edge &oe = E[g[u][i] ^ 1];
+            if (d[e.v] == d[e.u] + 1) {
+                double amt = e.cap - e.flow;
+                if (flow != -1 && amt > flow) amt = flow;
+                if (double pushed = DFS(e.v, T, amt)) {
+                    e.flow += pushed;
+                    oe.flow -= pushed;
+                    return pushed;
+                }
+            }
+        }
+        return 0;
+    }
+
+    double MaxFlow(int S, int T) {
+        double total = 0;
+        while (BFS(S, T)) {
+            fill(pt.begin(), pt.end(), 0);
+            while (double flow = DFS(S, T))
+                total += flow;
+        }
+        return total;
+    }
+
+    void DFS_ResidualNetwork(int u) {
+        res_visited[u] = true;
+        for (auto i:g[u]) {
+            Edge &e = E[i];
+            if (!res_visited[e.v]) {
+                if (e.cap > 0 && e.flow > 0 && e.cap - e.flow > 0)
+                    DFS_ResidualNetwork(e.v);
+                else if (e.cap == 0 && e.flow < 0)
+                    DFS_ResidualNetwork(e.v);
+            }
+        }
+    }
+
+    std::vector<Edge> MinCut(int S, int T) {
+        double max_flow = MaxFlow(S, T);
+        std::vector<Edge> min_cut;
+        DFS_ResidualNetwork(S);
+        for (auto e:E)
+            if (e.cap > 0 && e.flow > 0 && res_visited[e.u] && !res_visited[e.v])
+                min_cut.push_back(e);
+        return min_cut;
     }
 };
 
@@ -145,4 +243,46 @@ void KMostCriticalPaths(const BnetNetwork *net, int k, bool show_slack) {
             }
         }
     }
+}
+
+std::vector<BnetNodeID> MinCut(const BnetNetwork *net, std::map<BnetNodeID, double> error) {
+    std::map<BnetNodeID, int> slack = CalculateSlack(net);
+
+    std::vector<BnetNodeID> id_to_name;
+    std::map<BnetNodeID, int> name_to_id;
+    int source = -1, sink = -1;
+    auto N = (int) net->getNodesList().size();
+    Dinic dinic(N * 2);
+
+
+    for (auto node:net->getNodesList()) {
+        if (slack.at(node->getName()) == 0) {
+            id_to_name.push_back(node->getName());
+            name_to_id.insert(std::pair<BnetNodeID, int>
+                                      (node->getName(), id_to_name.size() - 1));
+            if (node->getName() == SOURCE_NAME)
+                source = (int) id_to_name.size() - 1;
+            if (node->getName() == SINK_NAME)
+                sink = (int) id_to_name.size() - 1;
+        }
+    }
+
+    for (auto node:net->getNodesList()) {
+        if (slack.at(node->getName()) == 0) {
+            int u = name_to_id.at(node->getName());
+            dinic.AddEdge(u, u + N, error.at(node->getName()));
+            for (auto &fanout_name:node->getFanOuts()) {
+                if (slack.at(fanout_name) == 0) {
+                    int v = name_to_id.at(fanout_name);
+                    dinic.AddEdge(u + N, v, INF);
+                }
+            }
+        }
+    }
+
+    std::vector<Edge> min_cut = dinic.MinCut(source, sink);
+    std::vector<BnetNodeID> min_cut_nodes;
+    for (auto e:min_cut)
+        min_cut_nodes.push_back(id_to_name[e.u]);
+    return min_cut_nodes;
 }

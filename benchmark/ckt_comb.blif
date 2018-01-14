@@ -1,0 +1,1890 @@
+.model ckt_comb
+.inputs G1 G2 G3 G4 G5 G6 G7 G8 G11 G14 G15 G16 G19 G20 G21 G22 G23 G24 G25 G26 G27 G28 G29 G32 G33 G34 G35 G36 G37 G40 G43 G44 G47 G48 G49 G50 G51 G52 G53 G54 G55 G56 G57 G60 G61 G62 G63 G64 G65 G66 G67 G68 G69 G72 G73 G74 G75 G76 G77 G78 G79 G80 G81 G82 G85 G86 G87 G88 G89 G90 G91 G92 G93 G94 G95 G96 G99 G100 G101 G102 G103 G104 G105 G106 G107 G108 G111 G112 G113 G114 G115 G116 G117 G118 G119 G120 G123 G124 G125 G126 G127 G128 G129 G130 G131 G132 G135 G136 G137 G138 G139 G140 G141 G142 IN-G169 IN-G174 IN-G177 IN-G178 IN-G179 IN-G180 IN-G181 IN-G182 IN-G183 IN-G184 IN-G185 IN-G186 IN-G189 IN-G190 IN-G191 IN-G192 IN-G193 IN-G194 IN-G195 IN-G196 IN-G197 IN-G198 IN-G199 IN-G200 IN-G201 IN-G202 IN-G203 IN-G204 IN-G205 IN-G206 IN-G207 IN-G208 IN-G209 IN-G210 IN-G211 IN-G212 IN-G213 IN-G214 IN-G215 IN-G239 IN-G240 IN-G241 IN-G242 IN-G243 IN-G244 IN-G245 IN-G246 IN-G247 IN-G248 IN-G249 IN-G250 IN-G251 IN-G252 IN-G253 IN-G254 IN-G255 IN-G256 IN-G257 IN-G262 IN-G263 IN-G264 IN-G265 IN-G266 IN-G267 IN-G268 IN-G269 IN-G270 IN-G271 IN-G272 IN-G273 IN-G274 IN-G275 IN-G276 IN-G277 IN-G278 IN-G279 G452 G483 G543 G559 G567 G651 G661 G860 G868 G1083 G1341 G1348 G1384 G1956 G1961 G1966 G1971 G1976 G1981 G1986 G1991 G1996 G2066 G2067 G2072 G2078 G2084 G2090 G2096 G2100 G2104 G2105 G2106 G2427 G2430 G2435 G2438 G2443 G2446 G2451 G2454 G2474 G2678 
+.outputs outnode
+.names G2072 G2078 G2084 G2090 G158
+1111 0
+.names G2 G15 G661 G259
+111 0
+.names G94 G452 G173
+11 1
+.names G7 G661 G223
+11 0
+.names G223 G567 G234
+01 0
+.names G223 G2106 G217
+01 0
+.names n382 n383 G325
+11 1
+.names G57 G69 G108 G120 n382
+1111 1
+.names G44 G82 G96 G132 n383
+1111 1
+.names n383 G2106 G567 n382 G319
+--10 0
+01-- 0
+.names n386 n387 G160
+11 1
+.names G137 G101 G2104 G2105 n386
+-110 0
+1-00 0
+.names G125 G113 G2104 G2105 n387
+-111 0
+1-01 0
+.names n389 n390 G162
+11 1
+.names G136 G100 G2104 G2105 n389
+-110 0
+1-00 0
+.names G124 G112 G2104 G2105 n390
+-111 0
+1-01 0
+.names n392 n393 G164
+11 1
+.names G138 G102 G2104 G2105 n392
+-110 0
+1-00 0
+.names G126 G114 G2104 G2105 n393
+-111 0
+1-01 0
+.names n395 n396 G166
+11 1
+.names G88 G50 G543 G651 n395
+-110 0
+1-00 0
+.names G75 G62 G543 G651 n396
+-101 0
+1-11 0
+.names n398 n399 G168
+11 1
+.names G89 G51 G543 G651 n398
+-110 0
+1-00 0
+.names G76 G63 G543 G651 n399
+-101 0
+1-11 0
+.names n401 n402 G171
+11 1
+.names G90 G52 G543 G651 n401
+-110 0
+1-00 0
+.names G77 G64 G543 G651 n402
+-101 0
+1-11 0
+.names n404 G860 G153
+11 0
+.names n405 n406 n404
+11 1
+.names G81 G43 G543 G651 n405
+-110 0
+1-00 0
+.names G68 G56 G543 G651 n406
+-101 0
+1-11 0
+.names G319 G36 G483 G661 G176
+1111 0
+.names G319 n409 G188
+11 0
+.names G3 G1 G483 G661 n409
+-011 1
+0-11 1
+.names n411 n412 G299
+11 0
+.names G91 G53 G543 G651 n411
+-110 0
+1-00 0
+.names G78 G65 G543 G651 n412
+-101 0
+1-11 0
+.names G543 G87 G651 n414 G288
+-001 0
+1--1 0
+.names G74 G49 G543 G651 n414
+-110 0
+1-11 0
+.names n416 n417 G305
+11 0
+.names G86 G48 G543 G651 n416
+-110 0
+1-00 0
+.names G73 G61 G543 G651 n417
+-101 0
+1-11 0
+.names n419 n420 G290
+11 0
+.names G85 G47 G543 G651 n419
+-110 0
+1-00 0
+.names G72 G60 G543 G651 n420
+-101 0
+1-11 0
+.names n422 G171 G868 G284
+-01 1
+0-0 1
+.names n423 n424 n422
+11 1
+.names G92 G54 G543 G651 n423
+-110 0
+1-00 0
+.names G79 G66 G543 G651 n424
+-101 0
+1-11 0
+.names G299 G168 G868 G297
+-01 1
+1-0 1
+.names G559 G860 n422 G148
+--0 1
+10- 1
+.names n404 n428 G868 G282
+-01 1
+0-0 1
+.names n422 G559 n428
+10 1
+.names n430 n433 G2096 G156
+010 0
+111 0
+.names n431 n432 n430
+11 1
+.names G135 G99 G2104 G2105 n431
+-110 0
+1-00 0
+.names G123 G111 G2104 G2105 n432
+-111 0
+1-01 0
+.names G2100 G2105 G2104 n433
+0-- 1
+.names n435 n438 G14 G401
+001 1
+111 1
+.names n436 n437 G2435 G2438 n435
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names G2443 G2446 n436
+00 1
+11 1
+.names G2427 G2430 n437
+00 1
+11 1
+.names G1341 G1348 G2451 G2454 n438
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n440 G2096 G2100 G227
+001 1
+010 1
+100 1
+111 1
+.names n441 n442 G2072 G2078 n440
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names G2084 G2090 n441
+00 1
+11 1
+.names G2067 G2678 n442
+00 1
+11 1
+.names n444 n447 G229
+00 1
+11 1
+.names n445 n446 G1961 G1966 n444
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names G1971 G1976 n445
+00 1
+11 1
+.names G1956 G2474 n446
+00 1
+11 1
+.names G1981 G1986 G1991 G1996 n447
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n449 n470 n490 n493 G311
+1111 1
+.names n450 n453 n463 n449
+111 1
+.names n451 n452 G2078 n450
+000 1
+101 1
+.names G27 G164 G29 n451
+-11 1
+0-0 1
+.names G34 G160 G29 G2084 n452
+-110 1
+0-00 1
+.names n454 n458 n462 G2072 n453
+0000 1
+0101 1
+.names G26 n455 G29 G2067 n454
+-110 1
+0-00 1
+.names n456 n457 n455
+11 1
+.names G140 G104 G2104 G2105 n456
+-110 0
+1-00 0
+.names G128 G116 G2104 G2105 n457
+-111 0
+1-01 0
+.names G33 n459 G29 n458
+-11 1
+0-0 1
+.names n460 n461 n459
+11 1
+.names G139 G103 G2104 G2105 n460
+-110 0
+1-00 0
+.names G127 G115 G2104 G2105 n461
+-111 0
+1-01 0
+.names G34 G160 G29 G2084 n462
+-011 1
+1-01 1
+.names n464 n465 n469 G1996 n463
+0000 1
+0101 1
+.names G35 G162 G29 G2090 n464
+-110 1
+0-00 1
+.names G32 n466 G29 n465
+-11 1
+0-0 1
+.names n467 n468 n466
+11 1
+.names G141 G105 G2104 G2105 n467
+-110 0
+1-00 0
+.names G129 G117 G2104 G2105 n468
+-111 0
+1-01 0
+.names G26 n455 G29 G2067 n469
+-011 1
+1-01 1
+.names n471 n475 n482 n486 n470
+1111 1
+.names n472 n473 n474 G1341 n471
+0000 1
+0101 1
+.names G24 G290 G16 G1986 n472
+-010 1
+0-00 1
+.names G19 n404 G16 n473
+-11 1
+0-0 1
+.names G4 n422 G16 G1348 n474
+-011 1
+1-01 1
+.names n476 n477 n481 G1991 n475
+0000 1
+0101 1
+.names G6 G305 G16 G1981 n476
+-010 1
+0-00 1
+.names G25 n478 G29 n477
+-11 1
+0-0 1
+.names n479 n480 n478
+11 1
+.names G131 G95 G2104 G2105 n479
+-110 0
+1-00 0
+.names G119 G107 G2104 G2105 n480
+-111 0
+1-01 0
+.names G24 G290 G16 G1986 n481
+-111 1
+1-01 1
+.names n483 n484 n485 G1961 n482
+0000 1
+0101 1
+.names G21 G168 G16 G1966 n483
+-110 1
+0-00 1
+.names G5 G171 G16 n484
+-11 1
+0-0 1
+.names G35 G162 G29 G2090 n485
+-011 1
+1-01 1
+.names n487 n488 n489 G1956 n486
+0000 1
+0101 1
+.names G4 n422 G16 G1348 n487
+-110 1
+0-00 1
+.names G20 G299 G16 n488
+-01 1
+0-0 1
+.names G21 G168 G16 G1966 n489
+-011 1
+1-01 1
+.names n492 G11 n491 G868 n490
+010- 1
+.names G22 G166 G16 G1971 n491
+-011 1
+1-01 1
+.names G28 n430 G29 n492
+-11 1
+0-0 1
+.names n494 n495 n496 G1976 n493
+0000 1
+0101 1
+.names G22 G166 G16 G1971 n494
+-110 1
+0-00 1
+.names G23 G288 G16 n495
+-01 1
+0-0 1
+.names G6 G305 G16 G1981 n496
+-111 1
+1-01 1
+.names n498 G860 n499 G145
+-10 1
+001 1
+1-0 1
+.names n422 G559 n404 n498
+-00 1
+0-0 1
+111 1
+.names n500 n501 n499
+11 1
+.names G93 G55 G543 G651 n500
+-110 0
+1-00 0
+.names G80 G67 G543 G651 n501
+-101 0
+1-11 0
+.names n505 n511 n503 G37 G395
+-000 1
+0-00 1
+1110 1
+.names n504 G160 G162 n503
+001 1
+010 1
+100 1
+111 1
+.names n430 G2105 G2104 n504
+0-- 1
+.names n506 n507 n508 n505
+101 0
+110 0
+.names n455 n466 n506
+00 1
+11 1
+.names G164 n459 n507
+00 1
+11 1
+.names n509 n510 n478 n508
+-00 1
+0-0 1
+111 1
+.names G142 G106 G2104 G2105 n509
+-110 0
+1-00 0
+.names G130 G118 G2104 G2105 n510
+-111 0
+1-01 0
+.names n506 n507 n508 n511
+000 0
+011 0
+.names n499 n513 G868 G295
+-01 1
+0-0 1
+.names n428 n514 n515 n516 n513
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names G166 G288 G305 G290 n514
+0001 1
+0010 1
+0100 1
+0111 1
+1000 1
+1011 1
+1101 1
+1110 1
+.names n404 n499 n515
+00 1
+11 1
+.names G299 n422 n516
+01 1
+10 1
+.names n518 n514 G37 G397
+000 1
+110 1
+.names n515 n516 G168 G171 n518
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n570 n559 n537 n520 G329
+-101 0
+0--1 0
+.names n529 n521 n535 n536 n520
+-001 1
+0-01 1
+.names n522 n527 n528 n521
+001 1
+.names n523 n526 n522
+01 1
+10 1
+.names n524 n525 G2067 n523
+010 1
+.names n393 n392 G1384 n524
+-00 1
+0-0 1
+.names n386 n387 G40 n525
+111 1
+.names n455 n524 n525 n526
+001 1
+.names G290 n524 n525 n527
+101 1
+.names n524 n525 G1986 n528
+010 1
+.names n530 n533 n534 n529
+000 1
+011 1
+.names n531 n532 n530
+01 1
+10 1
+.names n524 n525 G1996 n531
+010 1
+.names n466 n524 n525 n532
+001 1
+.names n524 n525 G1991 n533
+010 1
+.names n478 n524 n525 n534
+001 1
+.names n522 n530 n533 n534 n535
+0010 1
+.names n523 n526 n531 n532 n536
+-010 0
+1-10 0
+10-- 0
+.names n538 n546 n549 n537
+001 1
+.names n545 n541 n543 n539 n538
+-010 0
+0--- 0
+.names n540 n422 n539
+01 1
+10 1
+.names G2067 n525 G1348 n524 n540
+--10 1
+-01- 1
+11-1 1
+.names n542 G299 n541
+00 1
+11 1
+.names G2072 n525 G1956 n524 n542
+--10 1
+-01- 1
+11-1 1
+.names G1996 G1341 n544 n404 n543
+-001 1
+0-11 1
+.names n524 n525 n544
+11 1
+.names n540 n542 G299 n422 n545
+-00- 0
+0-01 0
+00-1 0
+.names n547 n548 n546
+01 1
+10 1
+.names G2084 G1966 n544 G8 n547
+-001 1
+0-11 1
+.names G168 G8 n544 n548
+01- 1
+.names n550 n552 n558 n549
+010 1
+.names n544 n551 G166 G8 n550
+-011 1
+-101 1
+.names G2090 n525 G1971 n524 n551
+--10 1
+-01- 1
+11-1 1
+.names n553 n556 n557 n552
+000 1
+011 1
+.names n524 n525 n554 n555 n553
+--00 0
+--11 0
+11-- 0
+.names n417 n416 G8 n554
+-01 1
+0-1 1
+.names G8 G1981 n555
+10 1
+.names n525 n524 G8 G1976 n556
+-010 1
+0-10 1
+.names n525 n524 G288 G8 n557
+-011 1
+0-11 1
+.names G1961 G2078 n544 G171 n558
+-011 1
+-110 1
+0-01 1
+1-00 1
+.names n560 n546 n563 n564 n559
+-101 1
+0-01 1
+.names n550 n561 n562 n553 n560
+0010 1
+.names n556 n557 n561
+01 1
+10 1
+.names G2078 G1961 n544 G171 n562
+-001 1
+0-11 1
+.names n547 n548 n550 n552 n563
+1001 1
+.names n567 n566 n552 n565 n564
+-011 0
+0--- 0
+.names n551 G8 n565
+01 1
+.names G166 G8 n544 n566
+01- 1
+.names n568 n569 n556 n557 n567
+-010 0
+1-10 0
+10-- 0
+.names n525 n524 n555 n568
+-01 1
+0-1 1
+.names n525 n524 n554 n569
+-01 1
+0-1 1
+.names n522 n530 n571 n570
+001 1
+.names n527 n528 n533 n534 n571
+0000 1
+0011 1
+1100 1
+1111 1
+.names G395 G397 n573 G401 G308
+0010 1
+.names G227 G229 G319 n573
+001 1
+.names G231
+0
+.names G44 G218
+0 1
+.names G132 G219
+0 1
+.names G82 G220
+0 1
+.names G96 G221
+0 1
+.names G69 G235
+0 1
+.names G120 G236
+0 1
+.names G57 G237
+0 1
+.names G108 G238
+0 1
+.names G325 G261
+0 1
+.names G171 G301
+0 1
+.names G168 G286
+0 1
+.names G166 G303
+0 1
+.names G311 G150
+0 1
+.names G308 G225
+0 1
+.names IN-G169 G169
+1 1
+.names IN-G174 G174
+1 1
+.names IN-G177 G177
+1 1
+.names IN-G178 G178
+1 1
+.names IN-G179 G179
+1 1
+.names IN-G180 G180
+1 1
+.names IN-G181 G181
+1 1
+.names IN-G182 G182
+1 1
+.names IN-G183 G183
+1 1
+.names IN-G184 G184
+1 1
+.names IN-G185 G185
+1 1
+.names IN-G186 G186
+1 1
+.names IN-G189 G189
+1 1
+.names IN-G190 G190
+1 1
+.names IN-G191 G191
+1 1
+.names IN-G192 G192
+1 1
+.names IN-G193 G193
+1 1
+.names IN-G194 G194
+1 1
+.names IN-G195 G195
+1 1
+.names IN-G196 G196
+1 1
+.names IN-G197 G197
+1 1
+.names IN-G198 G198
+1 1
+.names IN-G199 G199
+1 1
+.names IN-G200 G200
+1 1
+.names IN-G201 G201
+1 1
+.names IN-G202 G202
+1 1
+.names IN-G203 G203
+1 1
+.names IN-G204 G204
+1 1
+.names IN-G205 G205
+1 1
+.names IN-G206 G206
+1 1
+.names IN-G207 G207
+1 1
+.names IN-G208 G208
+1 1
+.names IN-G209 G209
+1 1
+.names IN-G210 G210
+1 1
+.names IN-G211 G211
+1 1
+.names IN-G212 G212
+1 1
+.names IN-G213 G213
+1 1
+.names IN-G214 G214
+1 1
+.names IN-G215 G215
+1 1
+.names IN-G239 G239
+1 1
+.names IN-G240 G240
+1 1
+.names IN-G241 G241
+1 1
+.names IN-G242 G242
+1 1
+.names IN-G243 G243
+1 1
+.names IN-G244 G244
+1 1
+.names IN-G245 G245
+1 1
+.names IN-G246 G246
+1 1
+.names IN-G247 G247
+1 1
+.names IN-G248 G248
+1 1
+.names IN-G249 G249
+1 1
+.names IN-G250 G250
+1 1
+.names IN-G251 G251
+1 1
+.names IN-G252 G252
+1 1
+.names IN-G253 G253
+1 1
+.names IN-G254 G254
+1 1
+.names IN-G255 G255
+1 1
+.names IN-G256 G256
+1 1
+.names IN-G257 G257
+1 1
+.names IN-G262 G262
+1 1
+.names IN-G263 G263
+1 1
+.names IN-G264 G264
+1 1
+.names IN-G265 G265
+1 1
+.names IN-G266 G266
+1 1
+.names IN-G267 G267
+1 1
+.names IN-G268 G268
+1 1
+.names IN-G269 G269
+1 1
+.names IN-G270 G270
+1 1
+.names IN-G271 G271
+1 1
+.names IN-G272 G272
+1 1
+.names IN-G273 G273
+1 1
+.names IN-G274 G274
+1 1
+.names IN-G275 G275
+1 1
+.names IN-G276 G276
+1 1
+.names IN-G277 G277
+1 1
+.names IN-G278 G278
+1 1
+.names IN-G279 G279
+1 1
+.names G452 G350
+1 1
+.names G452 G335
+1 1
+.names G452 G409
+1 1
+.names G1083 G369
+1 1
+.names G1083 G367
+1 1
+.names G2066 G411
+1 1
+.names G2066 G337
+1 1
+.names G2066 G384
+1 1
+.names G452 G391
+1 1
+.names G284 G321
+1 1
+.names G297 G280
+1 1
+.names G282 G323
+1 1
+.names G295 G331
+1 1
+.names G2072 G2078 G2084 G2090 G158sim 
+1111 0
+.names G2 G15 G661 G259sim 
+111 0
+.names G94 G452 G173sim 
+11 1
+.names G7 G661 G223sim 
+11 0
+.names G223sim G567 G234sim 
+01 0
+.names G223sim G2106 G217sim 
+01 0
+.names n382sim n383sim G325sim 
+11 1
+.names G57 G69 G108 G120 n382sim 
+1111 1
+.names G44 G82 G96 G132 n383sim 
+1111 1
+.names n383sim G2106 G567 n382sim G319sim 
+--10 0
+01-- 0
+.names n387sim n386sim G2105 G160sim 
+-11 1
+1-0 1
+.names G125 G113 G2104 n386sim 
+-01 1
+0-0 1
+.names G137 G101 G2104 n387sim 
+-01 1
+0-0 1
+.names n390sim n389sim G2105 G162sim 
+-11 1
+1-0 1
+.names G124 G112 G2104 n389sim 
+-01 1
+0-0 1
+.names G136 G100 G2104 n390sim 
+-01 1
+0-0 1
+.names n393sim n392sim G2105 G164sim 
+-11 1
+1-0 1
+.names G126 G114 G2104 n392sim 
+-01 1
+0-0 1
+.names G138 G102 G2104 n393sim 
+-01 1
+0-0 1
+.names n396sim n395sim G651 G166sim 
+-11 1
+1-0 1
+.names G75 G62 G543 n395sim 
+-00 1
+0-1 1
+.names G88 G50 G543 n396sim 
+-01 1
+0-0 1
+.names n399sim n398sim G651 G168sim 
+-11 1
+1-0 1
+.names G76 G63 G543 n398sim 
+-00 1
+0-1 1
+.names G89 G51 G543 n399sim 
+-01 1
+0-0 1
+.names n402sim n401sim G651 G171sim 
+-11 1
+1-0 1
+.names G77 G64 G543 n401sim 
+-00 1
+0-1 1
+.names G90 G52 G543 n402sim 
+-01 1
+0-0 1
+.names n404sim G860 G153sim 
+11 0
+.names n406sim n405sim G651 n404sim 
+-11 1
+1-0 1
+.names G68 G56 G543 n405sim 
+-00 1
+0-1 1
+.names G81 G43 G543 n406sim 
+-01 1
+0-0 1
+.names G319sim G36 G483 G661 G176sim 
+1111 0
+.names G319sim n409sim G188sim 
+11 0
+.names G3 G1 G483 G661 n409sim 
+-011 1
+0-11 1
+.names n412sim n411sim G651 G299sim 
+-01 1
+0-0 1
+.names G78 G65 G543 n411sim 
+-00 1
+0-1 1
+.names G91 G53 G543 n412sim 
+-01 1
+0-0 1
+.names G87 G651 n414sim G543 G288sim 
+--01 0
+00-0 0
+.names G74 G49 G651 n414sim 
+-10 1
+1-1 1
+.names n417sim n416sim G651 G305sim 
+-01 1
+0-0 1
+.names G73 G61 G543 n416sim 
+-00 1
+0-1 1
+.names G86 G48 G543 n417sim 
+-01 1
+0-0 1
+.names n420sim n419sim G651 G290sim 
+-01 1
+0-0 1
+.names G72 G60 G543 n419sim 
+-00 1
+0-1 1
+.names G85 G47 G543 n420sim 
+-01 1
+0-0 1
+.names n422sim G171sim G868 G284sim 
+-01 1
+0-0 1
+.names n424sim n423sim G651 n422sim 
+-11 1
+1-0 1
+.names G79 G66 G543 n423sim 
+-00 1
+0-1 1
+.names G92 G54 G543 n424sim 
+-01 1
+0-0 1
+.names G299sim G168sim G868 G297sim 
+-01 1
+1-0 1
+.names G559 G860 n422sim G148sim 
+--0 1
+10- 1
+.names n422sim G559 n404sim G868 G282sim 
+--10 0
+10-1 0
+.names n429sim G2096 G2100 G156sim 
+000 0
+110 0
+.names n431sim n430sim G2105 n429sim 
+-11 1
+1-0 1
+.names G123 G111 G2104 n430sim 
+-01 1
+0-0 1
+.names G135 G99 G2104 n431sim 
+-01 1
+0-0 1
+.names n433sim G14 G401sim 
+01 1
+.names n434sim n435sim G2427 G2430 n433sim 
+0001 1
+0010 1
+0100 1
+0111 1
+1000 1
+1011 1
+1101 1
+1110 1
+.names G2438 G2443 G2451 G2454 n434sim 
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names G1341 G1348 G2435 G2446 n435sim 
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n437sim G2067 G2678 G227sim 
+000 1
+011 1
+101 1
+110 1
+.names n438sim G2072 G2084 G2100 n437sim 
+0001 1
+0010 1
+0100 1
+0111 1
+1000 1
+1011 1
+1101 1
+1110 1
+.names G2078 G2090 G2096 n438sim 
+001 1
+010 1
+100 1
+111 1
+.names n440sim n441sim G1996 G2474 G229sim 
+0001 1
+0010 1
+0100 1
+0111 1
+1000 1
+1011 1
+1101 1
+1110 1
+.names G1961 G1976 G1986 G1991 n440sim 
+0001 1
+0010 1
+0100 1
+0111 1
+1000 1
+1011 1
+1101 1
+1110 1
+.names G1956 G1966 G1971 G1981 n441sim 
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n443sim n444sim G145sim 
+01 1
+10 1
+.names n422sim G559 n404sim G860 n443sim 
+--11 0
+11-0 0
+.names n404sim n445sim n444sim 
+01 1
+10 1
+.names n447sim n446sim G651 n445sim 
+-11 1
+1-0 1
+.names G80 G67 G543 n446sim 
+-00 1
+0-1 1
+.names G93 G55 G543 n447sim 
+-01 1
+0-0 1
+.names n449sim n459sim G37 G395sim 
+000 1
+110 1
+.names n450sim G160sim n453sim n456sim n449sim 
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names n451sim n452sim G162sim n429sim n450sim 
+-100 1
+-111 1
+0001 1
+0010 1
+1-00 1
+1-11 1
+.names G130 G118 G2104 G2105 n451sim 
+-111 1
+1-01 1
+.names G142 G106 G2104 G2105 n452sim 
+-110 1
+1-00 1
+.names n455sim n454sim G2105 n453sim 
+-11 1
+1-0 1
+.names G119 G107 G2104 n454sim 
+-01 1
+0-0 1
+.names G131 G95 G2104 n455sim 
+-01 1
+0-0 1
+.names n458sim n457sim G2105 n456sim 
+-11 1
+1-0 1
+.names G128 G116 G2104 n457sim 
+-01 1
+0-0 1
+.names G140 G104 G2104 n458sim 
+-01 1
+0-0 1
+.names n463sim n464sim G164sim n460sim n459sim 
+-101 1
+-110 1
+0000 1
+0011 1
+1-01 1
+1-10 1
+.names n462sim n461sim G2105 n460sim 
+-11 1
+1-0 1
+.names G129 G117 G2104 n461sim 
+-01 1
+0-0 1
+.names G141 G105 G2104 n462sim 
+-01 1
+0-0 1
+.names G127 G115 G2104 G2105 n463sim 
+-111 1
+1-01 1
+.names G139 G103 G2104 G2105 n464sim 
+-110 1
+1-00 1
+.names n445sim n469sim n466sim G868 G295sim 
+-001 1
+-111 1
+0--0 1
+.names n467sim n444sim G166sim n466sim 
+001 1
+010 1
+100 1
+111 1
+.names n468sim G299sim G290sim n467sim 
+000 1
+011 1
+101 1
+110 1
+.names G288sim G305sim n422sim n468sim 
+000 1
+011 1
+101 1
+110 1
+.names n422sim G559 n469sim 
+10 1
+.names n471sim G171sim G37 G397sim 
+000 1
+110 1
+.names n466sim G168sim n471sim 
+01 1
+10 1
+.names n496sim n473sim n498sim n490sim G329sim 
+-000 0
+1--0 0
+.names n478sim n480sim n474sim n488sim n473sim 
+--10 1
+01-0 1
+.names n475sim n477sim G166sim G8 n474sim 
+-011 1
+1-11 1
+10-1 1
+.names G2084 G1966 n476sim G168sim n475sim 
+-001 1
+0-11 1
+.names G160sim G164sim G40 G1384 n476sim 
+1010 1
+.names G2090 G1971 n476sim n477sim 
+-10 1
+1-1 1
+.names n479sim n477sim G166sim G8 n478sim 
+-101 1
+1--1 1
+.names G2084 G1966 n476sim G168sim n479sim 
+-100 1
+1-10 1
+.names n481sim n485sim n487sim G171sim n480sim 
+--10 0
+00-0 0
+001- 0
+.names n483sim n482sim n476sim n484sim n481sim 
+-100 1
+0-00 1
+.names G1348 n422sim G1341 n404sim n482sim 
+-101 1
+0-01 1
+.names n422sim G1348 G299sim G1956 n483sim 
+--00 0
+10-- 0
+.names G299sim G1956 n484sim 
+11 1
+.names n476sim n486sim n485sim 
+10 1
+.names G299sim n422sim G2067 G2072 n486sim 
+-100 0
+0--0 0
+010- 0
+.names G2078 G1961 n476sim n487sim 
+-10 1
+1-1 1
+.names n489sim n476sim G8 n488sim 
+001 1
+.names G288sim G305sim G1976 G1981 n489sim 
+0011 1
+0110 1
+1001 1
+1100 1
+.names n494sim n495sim n493sim n491sim n490sim 
+--01 1
+01-1 1
+.names G2067 n456sim n492sim n491sim 
+-11 1
+0-1 1
+.names G1384 G164sim G40 G160sim n492sim 
+-111 1
+1-11 1
+.names n460sim G1996 n456sim G2067 n493sim 
+--10 0
+10-- 0
+.names n453sim G1991 G1986 G290sim n494sim 
+--00 0
+10-- 0
+.names n460sim G1996 G1991 n453sim n495sim 
+--10 0
+01-- 0
+.names n492sim n494sim n495sim n497sim n496sim 
+-111 0
+0--- 0
+.names G1986 G290sim n493sim n497sim 
+-01 1
+0-1 1
+.names n476sim n499sim G8 n498sim 
+001 1
+.names G288sim G305sim G1976 G1981 n499sim 
+-0-0 0
+0-00 0
+000- 0
+.names G37 G171sim n471sim n501sim G308sim 
+-011 1
+-101 1
+1--1 1
+.names G395sim n502sim n501sim 
+01 1
+.names G401sim G227sim G319sim G229sim n502sim 
+0010 1
+.names n501sim n471sim G171sim G37 G225sim 
+-000 1
+-110 1
+0--- 1
+.names G311sim 
+ 0
+.names G150sim 
+ 1
+.names G231sim 
+ 0
+.names G44 G218sim 
+0 1
+.names G132 G219sim 
+0 1
+.names G82 G220sim 
+0 1
+.names G96 G221sim 
+0 1
+.names G69 G235sim 
+0 1
+.names G120 G236sim 
+0 1
+.names G57 G237sim 
+0 1
+.names G108 G238sim 
+0 1
+.names G325sim G261sim 
+0 1
+.names G171sim G301sim 
+0 1
+.names G168sim G286sim 
+0 1
+.names G166sim G303sim 
+0 1
+.names IN-G169 G169sim 
+1 1
+.names IN-G174 G174sim 
+1 1
+.names IN-G177 G177sim 
+1 1
+.names IN-G178 G178sim 
+1 1
+.names IN-G179 G179sim 
+1 1
+.names IN-G180 G180sim 
+1 1
+.names IN-G181 G181sim 
+1 1
+.names IN-G182 G182sim 
+1 1
+.names IN-G183 G183sim 
+1 1
+.names IN-G184 G184sim 
+1 1
+.names IN-G185 G185sim 
+1 1
+.names IN-G186 G186sim 
+1 1
+.names IN-G189 G189sim 
+1 1
+.names IN-G190 G190sim 
+1 1
+.names IN-G191 G191sim 
+1 1
+.names IN-G192 G192sim 
+1 1
+.names IN-G193 G193sim 
+1 1
+.names IN-G194 G194sim 
+1 1
+.names IN-G195 G195sim 
+1 1
+.names IN-G196 G196sim 
+1 1
+.names IN-G197 G197sim 
+1 1
+.names IN-G198 G198sim 
+1 1
+.names IN-G199 G199sim 
+1 1
+.names IN-G200 G200sim 
+1 1
+.names IN-G201 G201sim 
+1 1
+.names IN-G202 G202sim 
+1 1
+.names IN-G203 G203sim 
+1 1
+.names IN-G204 G204sim 
+1 1
+.names IN-G205 G205sim 
+1 1
+.names IN-G206 G206sim 
+1 1
+.names IN-G207 G207sim 
+1 1
+.names IN-G208 G208sim 
+1 1
+.names IN-G209 G209sim 
+1 1
+.names IN-G210 G210sim 
+1 1
+.names IN-G211 G211sim 
+1 1
+.names IN-G212 G212sim 
+1 1
+.names IN-G213 G213sim 
+1 1
+.names IN-G214 G214sim 
+1 1
+.names IN-G215 G215sim 
+1 1
+.names IN-G239 G239sim 
+1 1
+.names IN-G240 G240sim 
+1 1
+.names IN-G241 G241sim 
+1 1
+.names IN-G242 G242sim 
+1 1
+.names IN-G243 G243sim 
+1 1
+.names IN-G244 G244sim 
+1 1
+.names IN-G245 G245sim 
+1 1
+.names IN-G246 G246sim 
+1 1
+.names IN-G247 G247sim 
+1 1
+.names IN-G248 G248sim 
+1 1
+.names IN-G249 G249sim 
+1 1
+.names IN-G250 G250sim 
+1 1
+.names IN-G251 G251sim 
+1 1
+.names IN-G252 G252sim 
+1 1
+.names IN-G253 G253sim 
+1 1
+.names IN-G254 G254sim 
+1 1
+.names IN-G255 G255sim 
+1 1
+.names IN-G256 G256sim 
+1 1
+.names IN-G257 G257sim 
+1 1
+.names IN-G262 G262sim 
+1 1
+.names IN-G263 G263sim 
+1 1
+.names IN-G264 G264sim 
+1 1
+.names IN-G265 G265sim 
+1 1
+.names IN-G266 G266sim 
+1 1
+.names IN-G267 G267sim 
+1 1
+.names IN-G268 G268sim 
+1 1
+.names IN-G269 G269sim 
+1 1
+.names IN-G270 G270sim 
+1 1
+.names IN-G271 G271sim 
+1 1
+.names IN-G272 G272sim 
+1 1
+.names IN-G273 G273sim 
+1 1
+.names IN-G274 G274sim 
+1 1
+.names IN-G275 G275sim 
+1 1
+.names IN-G276 G276sim 
+1 1
+.names IN-G277 G277sim 
+1 1
+.names IN-G278 G278sim 
+1 1
+.names IN-G279 G279sim 
+1 1
+.names G452 G350sim 
+1 1
+.names G452 G335sim 
+1 1
+.names G452 G409sim 
+1 1
+.names G1083 G369sim 
+1 1
+.names G1083 G367sim 
+1 1
+.names G2066 G411sim 
+1 1
+.names G2066 G337sim 
+1 1
+.names G2066 G384sim 
+1 1
+.names G452 G391sim 
+1 1
+.names G284sim G321sim 
+1 1
+.names G297sim G280sim 
+1 1
+.names G282sim G323sim 
+1 1
+.names G295sim G331sim 
+1 1
+
+.names G169 G169sim inter_n0
+10 1
+01 1
+.names G174 G174sim inter_n1
+10 1
+01 1
+.names G177 G177sim inter_n2
+10 1
+01 1
+.names G178 G178sim inter_n3
+10 1
+01 1
+.names G179 G179sim inter_n4
+10 1
+01 1
+.names G180 G180sim inter_n5
+10 1
+01 1
+.names G181 G181sim inter_n6
+10 1
+01 1
+.names G182 G182sim inter_n7
+10 1
+01 1
+.names G183 G183sim inter_n8
+10 1
+01 1
+.names G184 G184sim inter_n9
+10 1
+01 1
+.names G185 G185sim inter_n10
+10 1
+01 1
+.names G186 G186sim inter_n11
+10 1
+01 1
+.names G189 G189sim inter_n12
+10 1
+01 1
+.names G190 G190sim inter_n13
+10 1
+01 1
+.names G191 G191sim inter_n14
+10 1
+01 1
+.names G192 G192sim inter_n15
+10 1
+01 1
+.names G193 G193sim inter_n16
+10 1
+01 1
+.names G194 G194sim inter_n17
+10 1
+01 1
+.names G195 G195sim inter_n18
+10 1
+01 1
+.names G196 G196sim inter_n19
+10 1
+01 1
+.names G197 G197sim inter_n20
+10 1
+01 1
+.names G198 G198sim inter_n21
+10 1
+01 1
+.names G199 G199sim inter_n22
+10 1
+01 1
+.names G200 G200sim inter_n23
+10 1
+01 1
+.names G201 G201sim inter_n24
+10 1
+01 1
+.names G202 G202sim inter_n25
+10 1
+01 1
+.names G203 G203sim inter_n26
+10 1
+01 1
+.names G204 G204sim inter_n27
+10 1
+01 1
+.names G205 G205sim inter_n28
+10 1
+01 1
+.names G206 G206sim inter_n29
+10 1
+01 1
+.names G207 G207sim inter_n30
+10 1
+01 1
+.names G208 G208sim inter_n31
+10 1
+01 1
+.names G209 G209sim inter_n32
+10 1
+01 1
+.names G210 G210sim inter_n33
+10 1
+01 1
+.names G211 G211sim inter_n34
+10 1
+01 1
+.names G212 G212sim inter_n35
+10 1
+01 1
+.names G213 G213sim inter_n36
+10 1
+01 1
+.names G214 G214sim inter_n37
+10 1
+01 1
+.names G215 G215sim inter_n38
+10 1
+01 1
+.names G239 G239sim inter_n39
+10 1
+01 1
+.names G240 G240sim inter_n40
+10 1
+01 1
+.names G241 G241sim inter_n41
+10 1
+01 1
+.names G242 G242sim inter_n42
+10 1
+01 1
+.names G243 G243sim inter_n43
+10 1
+01 1
+.names G244 G244sim inter_n44
+10 1
+01 1
+.names G245 G245sim inter_n45
+10 1
+01 1
+.names G246 G246sim inter_n46
+10 1
+01 1
+.names G247 G247sim inter_n47
+10 1
+01 1
+.names G248 G248sim inter_n48
+10 1
+01 1
+.names G249 G249sim inter_n49
+10 1
+01 1
+.names G250 G250sim inter_n50
+10 1
+01 1
+.names G251 G251sim inter_n51
+10 1
+01 1
+.names G252 G252sim inter_n52
+10 1
+01 1
+.names G253 G253sim inter_n53
+10 1
+01 1
+.names G254 G254sim inter_n54
+10 1
+01 1
+.names G255 G255sim inter_n55
+10 1
+01 1
+.names G256 G256sim inter_n56
+10 1
+01 1
+.names G257 G257sim inter_n57
+10 1
+01 1
+.names G262 G262sim inter_n58
+10 1
+01 1
+.names G263 G263sim inter_n59
+10 1
+01 1
+.names G264 G264sim inter_n60
+10 1
+01 1
+.names G265 G265sim inter_n61
+10 1
+01 1
+.names G266 G266sim inter_n62
+10 1
+01 1
+.names G267 G267sim inter_n63
+10 1
+01 1
+.names G268 G268sim inter_n64
+10 1
+01 1
+.names G269 G269sim inter_n65
+10 1
+01 1
+.names G270 G270sim inter_n66
+10 1
+01 1
+.names G271 G271sim inter_n67
+10 1
+01 1
+.names G272 G272sim inter_n68
+10 1
+01 1
+.names G273 G273sim inter_n69
+10 1
+01 1
+.names G274 G274sim inter_n70
+10 1
+01 1
+.names G275 G275sim inter_n71
+10 1
+01 1
+.names G276 G276sim inter_n72
+10 1
+01 1
+.names G277 G277sim inter_n73
+10 1
+01 1
+.names G278 G278sim inter_n74
+10 1
+01 1
+.names G279 G279sim inter_n75
+10 1
+01 1
+.names G350 G350sim inter_n76
+10 1
+01 1
+.names G335 G335sim inter_n77
+10 1
+01 1
+.names G409 G409sim inter_n78
+10 1
+01 1
+.names G369 G369sim inter_n79
+10 1
+01 1
+.names G367 G367sim inter_n80
+10 1
+01 1
+.names G411 G411sim inter_n81
+10 1
+01 1
+.names G337 G337sim inter_n82
+10 1
+01 1
+.names G384 G384sim inter_n83
+10 1
+01 1
+.names G218 G218sim inter_n84
+10 1
+01 1
+.names G219 G219sim inter_n85
+10 1
+01 1
+.names G220 G220sim inter_n86
+10 1
+01 1
+.names G221 G221sim inter_n87
+10 1
+01 1
+.names G235 G235sim inter_n88
+10 1
+01 1
+.names G236 G236sim inter_n89
+10 1
+01 1
+.names G237 G237sim inter_n90
+10 1
+01 1
+.names G238 G238sim inter_n91
+10 1
+01 1
+.names G158 G158sim inter_n92
+10 1
+01 1
+.names G259 G259sim inter_n93
+10 1
+01 1
+.names G391 G391sim inter_n94
+10 1
+01 1
+.names G173 G173sim inter_n95
+10 1
+01 1
+.names G223 G223sim inter_n96
+10 1
+01 1
+.names G234 G234sim inter_n97
+10 1
+01 1
+.names G217 G217sim inter_n98
+10 1
+01 1
+.names G325 G325sim inter_n99
+10 1
+01 1
+.names G261 G261sim inter_n100
+10 1
+01 1
+.names G319 G319sim inter_n101
+10 1
+01 1
+.names G160 G160sim inter_n102
+10 1
+01 1
+.names G162 G162sim inter_n103
+10 1
+01 1
+.names G164 G164sim inter_n104
+10 1
+01 1
+.names G166 G166sim inter_n105
+10 1
+01 1
+.names G168 G168sim inter_n106
+10 1
+01 1
+.names G171 G171sim inter_n107
+10 1
+01 1
+.names G153 G153sim inter_n108
+10 1
+01 1
+.names G176 G176sim inter_n109
+10 1
+01 1
+.names G188 G188sim inter_n110
+10 1
+01 1
+.names G299 G299sim inter_n111
+10 1
+01 1
+.names G301 G301sim inter_n112
+10 1
+01 1
+.names G286 G286sim inter_n113
+10 1
+01 1
+.names G303 G303sim inter_n114
+10 1
+01 1
+.names G288 G288sim inter_n115
+10 1
+01 1
+.names G305 G305sim inter_n116
+10 1
+01 1
+.names G290 G290sim inter_n117
+10 1
+01 1
+.names G284 G284sim inter_n118
+10 1
+01 1
+.names G321 G321sim inter_n119
+10 1
+01 1
+.names G297 G297sim inter_n120
+10 1
+01 1
+.names G280 G280sim inter_n121
+10 1
+01 1
+.names G148 G148sim inter_n122
+10 1
+01 1
+.names G282 G282sim inter_n123
+10 1
+01 1
+.names G323 G323sim inter_n124
+10 1
+01 1
+.names G156 G156sim inter_n125
+10 1
+01 1
+.names G401 G401sim inter_n126
+10 1
+01 1
+.names G227 G227sim inter_n127
+10 1
+01 1
+.names G229 G229sim inter_n128
+10 1
+01 1
+.names G311 G311sim inter_n129
+10 1
+01 1
+.names G150 G150sim inter_n130
+10 1
+01 1
+.names G145 G145sim inter_n131
+10 1
+01 1
+.names G395 G395sim inter_n132
+10 1
+01 1
+.names G295 G295sim inter_n133
+10 1
+01 1
+.names G331 G331sim inter_n134
+10 1
+01 1
+.names G397 G397sim inter_n135
+10 1
+01 1
+.names G329 G329sim inter_n136
+10 1
+01 1
+.names G231 G231sim inter_n137
+10 1
+01 1
+.names G308 G308sim inter_n138
+10 1
+01 1
+.names G225 G225sim inter_n139
+10 1
+01 1
+
+.names inter_n0 inter_n1 inter_n2 inter_n3 inter_n4 inter_n5 inter_n6 inter_n7 inter_n8 inter_n9 inter_n10 inter_n11 inter_n12 inter_n13 inter_n14 inter_n15 inter_n16 inter_n17 inter_n18 inter_n19 inter_n20 inter_n21 inter_n22 inter_n23 inter_n24 inter_n25 inter_n26 inter_n27 inter_n28 inter_n29 inter_n30 inter_n31 inter_n32 inter_n33 inter_n34 inter_n35 inter_n36 inter_n37 inter_n38 inter_n39 inter_n40 inter_n41 inter_n42 inter_n43 inter_n44 inter_n45 inter_n46 inter_n47 inter_n48 inter_n49 inter_n50 inter_n51 inter_n52 inter_n53 inter_n54 inter_n55 inter_n56 inter_n57 inter_n58 inter_n59 inter_n60 inter_n61 inter_n62 inter_n63 inter_n64 inter_n65 inter_n66 inter_n67 inter_n68 inter_n69 inter_n70 inter_n71 inter_n72 inter_n73 inter_n74 inter_n75 inter_n76 inter_n77 inter_n78 inter_n79 inter_n80 inter_n81 inter_n82 inter_n83 inter_n84 inter_n85 inter_n86 inter_n87 inter_n88 inter_n89 inter_n90 inter_n91 inter_n92 inter_n93 inter_n94 inter_n95 inter_n96 inter_n97 inter_n98 inter_n99 inter_n100 inter_n101 inter_n102 inter_n103 inter_n104 inter_n105 inter_n106 inter_n107 inter_n108 inter_n109 inter_n110 inter_n111 inter_n112 inter_n113 inter_n114 inter_n115 inter_n116 inter_n117 inter_n118 inter_n119 inter_n120 inter_n121 inter_n122 inter_n123 inter_n124 inter_n125 inter_n126 inter_n127 inter_n128 inter_n129 inter_n130 inter_n131 inter_n132 inter_n133 inter_n134 inter_n135 inter_n136 inter_n137 inter_n138 inter_n139 outnode
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 0
+.end
